@@ -1,0 +1,89 @@
+# Xcode
+#
+# gitignore contributors: remember to update Global/Xcode.gitignore, Objective-C.gitignore & Swift.gitignore
+
+## User settings
+xcuserdata/
+
+## Compatibility with Xcode 8 and earlier (if you're using Xcode 9 or later, remove this part)
+*.xccheckout
+*.xcscmblueprint
+
+## Compatibility with Xcode 3 and earlier (if you're using Xcode 4 or later, remove this part)
+build/
+DerivedData/
+*.moved-aside
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+
+## Xcode Patch
+*.xcodeproj/*
+!*.xcodeproj/project.pbxproj
+!*.xcodeproj/xcshareddata/
+!*.xcworkspace/contents.xcworkspacedata
+/*.gcno
+
+## Carthage
+Carthage/Checkouts
+
+# CocoaPods
+Pods/
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+
+# AppCode
+.idea/
+
+# Code blocks
+## Obj-C
+*.mode1
+*.mode1v3
+*.mode2v3
+*.mode3v3
+*.xctxt
+*.xcscheme
+*.xcuserstate
+project.xcworkspace/
+xcuserdata/
+
+## Obj-C++
+*.mode1
+*.mode1v3
+*.mode2v3
+*.mode3v3
+*.xctxt
+*.xcscheme
+*.xcuserstate
+project.xcworkspace/
+xcuserdata/
+
+## Swift
+*.swiftpm
+.build/
+.swiftpm/
+
+## Package Manager
+## Build products
+build/
+DerivedData/
+
+## Provisioning profiles
+*.provisionprofile
+*.p12
+
+## Others
+**/xcuserdata/
+**/xcuserdata/**/*
+
+## Remove CocoaPods artifacts
+Pods/
